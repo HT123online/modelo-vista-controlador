@@ -1,0 +1,5 @@
+Reunión de equipo de investigación;equipo.investigacion@uni.edu.pe;2026-04-20;semanal;sí
+Clase de programación avanzada;profesor.curso@edu.pe;2026-04-22;diario;no
+Taller de diseño de logos;creativos@studio.com;2026-04-25;mensual;sí
+Presentación de proyecto satelital;nasa.spaceapps@challenge.org;2026-04-28;único;sí
+Sesión de juego y optimización;gaming.club@community.net;2026-05-01;semanal;no
