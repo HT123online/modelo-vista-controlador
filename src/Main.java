@@ -1,19 +1,24 @@
 import javax.swing.*;
 
-public class Main extends JFrame {
+public class Main{
  public static void main(String[] args) {
-  // Crear ventana
-  JFrame frame = new JFrame("Mi Formulario Swing");
 
-  // Instanciar el formulario
-  diseño form = new diseño();
+  SwingUtilities.invokeLater(new Runnable() {
+   @Override
+   public void run() {
+    createGUI();
+   }
+  });
 
-  // Usar el panel del formulario como contenido
-  frame.setContentPane(form.getPanel());
-
-  // Configuración básica
-  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-  frame.pack(); // Ajusta al tamaño preferido de los componentes
-  frame.setVisible(true);
  }
+ private static void createGUI(){
+      diseno ui=new diseno();
+      JPanel root=ui.getRootPanel();
+      JFrame frame=new JFrame();
+      frame.setContentPane(root);
+      frame.pack();
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      frame.setVisible(true);
+  }
 }
+
